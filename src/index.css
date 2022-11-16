@@ -1,0 +1,46 @@
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.homeHeader {
+  width: 22%;
+  height: 100vh;
+  background-color: #272022;
+}
+
+.logo {
+  max-width: 97%;
+  padding-top: 5%;
+}
+
+.headerNav {
+  width: 100%;
+}
+
+.headerNav > ul {
+  width: fit-content;
+  margin: auto;
+  padding: 50px 0 0 0;
+}
+
+.headerNav > ul > li {
+  list-style: none;
+  padding: 15px 0 0 0;
+}
+
+.headerNav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  border-left: solid #68bd97 4px;
+}
+
+.headerNav > ul > li > a:hover {
+}
