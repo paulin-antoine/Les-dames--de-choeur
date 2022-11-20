@@ -1,5 +1,6 @@
 import "./App.css";
 import Logo from "./images/logo-3.png";
+import Slider from "./Component/Slider.js";
 
 function App() {
   return (
@@ -31,6 +32,12 @@ function App() {
           </ul>
         </nav>
       </header>
+      <div className="reading-part">
+        <div>
+          <Slider />
+        </div>
+        <div className="description"></div>
+      </div>
     </div>
   );
 }

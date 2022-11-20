@@ -1,0 +1,15 @@
+.carousel .thumbs {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.carousel .thumb {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel-root {
+  background-color: white;
+}
