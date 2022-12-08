@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Landasans";
+  src: url("./fonts/Landasans-UltraLight.otf");
+}
+
 #root {
   height: 100%;
 }
@@ -17,61 +22,68 @@ body {
   width: 100%;
 }
 
-.homeHeader {
-  width: 25%;
-  height: 100vh;
-  background: linear-gradient(to left, #1f191b, #302829);
-  position: fixed;
-}
-
-.logo {
-  max-width: 100%;
-  padding-top: 5%;
-}
-
-.headerNav {
-  width: 100%;
-}
-
-.headerNav > ul {
-  width: fit-content;
-  margin: auto;
-  padding: 50px 0 0 0;
-}
-
-.headerNav > ul > li {
-  list-style: none;
-  padding: 20px 0 0 0;
-  transition: all 450ms ease;
-}
-
-.headerNav > ul > li:hover {
-  transform: translate(15px, 0px);
-  transition: all 450ms ease;
-}
-
-.headerNav > ul > li > a {
-  text-decoration: none;
-  color: white;
-  padding-left: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1em;
-  border-left: solid #68bd97 2px;
-}
-
-.headerNav > ul > li:hover > a {
-  color: #b6e0cd;
-}
-
 .reading-part {
   width: 75%;
   position: absolute;
   right: 0;
-  background-color: #f4f4ed;
+  background-color: white;
+  padding: 0.5%;
 }
 
 .description {
   width: 100%;
-  height: 500px;
-  background-color: #f4f4ed;
+  height: 600px;
+  margin: auto;
+  margin-top: -10px;
+  padding: 2%;
+  background-color: white;
+}
+
+.description > .first-part > .first-line-part > h1 {
+  font-family: "Landasans";
+  text-transform: uppercase;
+  text-align: right;
+  letter-spacing: 5px;
+  color: #394592;
+  font-size: 2em;
+  font-weight: 100;
+  line-height: 1.4em;
+}
+
+.description > .first-part > .first-line-part > h2 {
+  margin-top: 50px;
+  font-family: "Landasans";
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: right;
+  color: #68bd97;
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 1.2em;
+}
+
+.description .first-part {
+  display: flex;
+  justify-content: space-between;
+  border: solid black 1px;
+}
+
+.description > .first-part > main {
+  width: 60%;
+  text-align: center;
+  margin-right: 5%;
+}
+
+.description > .first-part > main > p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description > .first-part > main > :first-child {
+  color: #6dc59e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3em;
+}
+
+.description > .first-part > main > :nth-child(2) {
+  line-height: 1.3em;
 }
