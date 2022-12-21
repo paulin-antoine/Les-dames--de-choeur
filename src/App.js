@@ -1,8 +1,9 @@
 import "./App.css";
 import Header from "./Component/Header.js";
 import { Routes, Route } from "react-router-dom";
-import AdminScreen from "./Screens/AdminScreen";
+import AuthScreen from "./Screens/AuthScreen";
 import HomeScreen from "./Screens/HomeScreen";
+import DateScreen from "./Screens/DateScreen";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <div className="reading-part">
         <Routes>
-          <Route path="/admin" element={<AdminScreen />}></Route>
+          <Route path="/agenda" element={<DateScreen />}></Route>
+          <Route path="/auth" element={<AuthScreen />}></Route>
           <Route path="/" element={<HomeScreen />} exact></Route>
         </Routes>
       </div>

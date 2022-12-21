@@ -1,0 +1,81 @@
+.admin-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  backdrop-filter: blur(1.5rem);
+  height: 100vh;
+  width: 100%;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  margin: 30px 0 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #68bd97;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px silver;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  width: 75%;
+  margin: 50px auto;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.input {
+  position: relative;
+}
+
+.input,
+input {
+  width: 100%;
+}
+
+input {
+  border: none;
+  font-size: 1.1em;
+  height: 40px;
+  border-bottom: solid rgb(206, 206, 206) 3px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[name="user"] {
+  margin-bottom: 20px;
+}
+
+i {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  color: rgb(206, 206, 206);
+}
+
+button {
+  width: 75%;
+  height: 50px;
+  margin: 20px auto;
+  border: none;
+  border-bottom: 5px solid #457f65;
+  color: white;
+  background-color: #68bd97;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1em;
+  cursor: pointer;
+}
