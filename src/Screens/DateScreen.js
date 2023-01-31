@@ -6,7 +6,7 @@ export default function DateScreen() {
     <div id="date-home">
       <div id="date-block">
         <h1>Événements, Dates, Concerts...</h1>
-        <div class="dates"></div>
+        <div className="dates"></div>
       </div>
     </div>
   );

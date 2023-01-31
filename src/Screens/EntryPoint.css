@@ -1,0 +1,45 @@
+#hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #1f191b, #302829);
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
+#hello img {
+  height: 80%;
+  margin-top: -5%;
+}
+
+.link_home_page {
+  display: flex;
+  text-align: center;
+  margin-top: 250px;
+  animation: welcome 1.5s infinite;
+}
+
+.link_home_page > a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+.arrow {
+  padding-left: 10px;
+}
+
+@keyframes welcome {
+  0% {
+    transform: translateY(-5px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}

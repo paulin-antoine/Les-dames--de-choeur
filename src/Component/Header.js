@@ -17,10 +17,7 @@ function Header() {
             <a href="agenda">Agenda</a>
           </li>
           <li>
-            <a href="concert">Photos</a>
-          </li>
-          <li>
-            <a href="Presse">Presse</a>
+            <a href="concert">Photos & vidéos</a>
           </li>
           <li>
             <a href="Partenaires">Partenaires et amis</a>
