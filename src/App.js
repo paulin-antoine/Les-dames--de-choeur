@@ -5,6 +5,7 @@ import AuthScreen from "./Screens/AuthScreen";
 import HomeScreen from "./Screens/HomeScreen";
 import DateScreen from "./Screens/DateScreen";
 import EntryPoint from "./Screens/EntryPoint";
+import NotreCheffe from "./Screens/NotreCheffeScreen";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/agenda" element={<DateScreen />}></Route>
           <Route path="/auth" element={<AuthScreen />}></Route>
           <Route path="/accueil" element={<HomeScreen />} exact></Route>
+          <Route path="/notre_cheffe" element={<NotreCheffe />}></Route>
         </Routes>
       </div>
     </div>

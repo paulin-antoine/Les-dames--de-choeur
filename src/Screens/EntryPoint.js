@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../images/logo-3.png";
 import "./EntryPoint.css";
-import "../Component/Bubble";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 

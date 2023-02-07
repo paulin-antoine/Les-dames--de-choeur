@@ -2,6 +2,7 @@
   width: 25%;
   height: 100vh;
   background: linear-gradient(to left, #1f191b, #302829);
+
   position: fixed;
 }
 
@@ -17,7 +18,7 @@
 .headerNav > ul {
   width: fit-content;
   margin: auto;
-  padding: 50px 0 0 0;
+  padding: 30px 0 0 0;
 }
 
 .headerNav > ul > li {
@@ -42,4 +43,47 @@
 
 .headerNav > ul > li:hover > a {
   color: #b6e0cd;
+}
+
+.photoNav {
+  display: none;
+  width: 150px;
+  padding: 10px 0 10px 0;
+}
+
+.photoNav > ul {
+  width: fit-content;
+  margin: auto;
+}
+
+.photoNav > ul > li {
+  list-style: disc;
+  color: white;
+  padding-top: 8px;
+}
+
+.photoNav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9em;
+}
+
+#photos:hover .photoNav {
+  display: block;
+  animation: open_nav 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: top;
+  transition: all;
+}
+
+@keyframes open_nav {
+  0% {
+    transform: scaleY(0.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
 }

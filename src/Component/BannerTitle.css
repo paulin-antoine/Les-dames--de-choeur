@@ -1,0 +1,16 @@
+.banner_block {
+  display: flex;
+  height: 32vh;
+  justify-content: left;
+  align-items: center;
+}
+
+.banner_block > .title_banner_block {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding-left: 5%;
+  margin-top: 0;
+  text-transform: none;
+  color: white;
+}

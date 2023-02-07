@@ -1,0 +1,31 @@
+#photo_contain {
+  height: auto;
+}
+
+.photo_block {
+  position: relative;
+  flex-direction: column;
+  width: 270px;
+  height: 380px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: aqua;
+  overflow: hidden;
+}
+
+.gallery {
+  height: 107%;
+}
+
+.description_2 {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 270px;
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.3)
+  );
+}
