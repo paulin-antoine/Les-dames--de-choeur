@@ -1,0 +1,37 @@
+/*grid for musicians*/
+#grid_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "";
+  grid-gap: 15px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.global_img_block {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.first_img_block {
+  width: 50%;
+}
+
+#michael {
+  width: 37%;
+}
+
+#rose {
+  width: 120%;
+  margin-bottom: 15px;
+}
+
+#didier {
+  width: 80%;
+}
