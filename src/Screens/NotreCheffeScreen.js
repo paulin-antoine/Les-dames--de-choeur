@@ -10,7 +10,7 @@ import MarieCecile4 from "../images/marie_cecile_4.jpg";
 export default function NotreCheffeScreen() {
   return (
     <div>
-      <BannerTitle />
+      <BannerTitle name="Notre cheffe" />
       <div id="grid_1">
         <PhotoContainer image={MarieCecile} name="Marie-Cécile" />
         <img src={MarieCecile4} alt="Marie-Cécile" id="Marie-Cecile-4"></img>

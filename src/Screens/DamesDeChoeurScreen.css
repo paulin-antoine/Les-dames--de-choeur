@@ -1,0 +1,81 @@
+#video_ddc_block {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100px;
+  height: auto;
+  background-color: rgb(14, 14, 14);
+}
+
+#video_ddc {
+  width: 59%;
+  margin: 3% 0 3% 0;
+  border: solid rgb(37, 37, 37) 1px;
+  box-sizing: border-box;
+}
+
+#ddc_gallery_block {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  background-color: white;
+  margin: auto;
+  margin-top: 3%;
+  padding: 2%;
+}
+
+#ddc_first_block {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.zoom {
+  filter: blur(1.2rem);
+}
+
+#ddc5 {
+  margin-bottom: 5%;
+}
+
+#ddc_second_block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 73%;
+}
+
+#ddc1,
+#ddc2,
+#ddc3,
+#ddc4,
+#ddc6,
+#ddc8 {
+  width: 90%;
+  margin: auto;
+}
+
+.zoom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(200, 200, 200, 0.882);
+  z-index: 9999;
+}
+
+.zoomed-img {
+  max-width: 90%;
+  max-height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.zoomed-img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

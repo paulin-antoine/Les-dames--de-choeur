@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../images/logo-3.png";
 import "./Header.css";
 
@@ -12,41 +13,47 @@ function Header() {
       <nav className="headerNav">
         <ul>
           <li>
-            <a href="accueil" id="accueil">
+            <Link to="/accueil" id="accueil" className="link_nav">
               Accueil
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="agenda" id="agenda">
+            <Link to="/agenda" id="agenda" className="link_nav">
               Agenda
-            </a>
+            </Link>
           </li>
           <li id="photos">
-            <a href="photos_&_videos">Photos & vidéos</a>
+            <span className="link_nav">Photos & vidéos</span>
             <nav className="photoNav">
               <ul>
                 <li>
-                  <a href="notre_cheffe">Notre cheffe</a>
+                  <Link to="/notre_cheffe" className="link_nav">
+                    Notre cheffe
+                  </Link>
                 </li>
                 <li>
-                  <a href="nos_musiciens">Nos musiciens</a>
+                  <Link to="/nos_musiciens" className="link_nav">
+                    Nos musiciens
+                  </Link>
                 </li>
                 <li>
-                  <a href="dames_de_choeur">Les dames de choeur</a>
+                  <Link to="/dames_de_choeur" className="link_nav">
+                    Les dames de choeur
+                  </Link>
                 </li>
               </ul>
             </nav>
           </li>
 
           <li>
-            <a href="Partenaires" id="partenaires">
+            <Link to="/nos_partenaires" id="partenaires" className="link_nav">
               Partenaires et amis
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="Contact" id="contact">
+            <Link to="/Contact" id="contact" className="link_nav">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

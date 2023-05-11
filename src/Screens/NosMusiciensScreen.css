@@ -1,37 +1,96 @@
 /*grid for musicians*/
-#grid_2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "";
-  grid-gap: 15px;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 20px;
-}
 
-.global_img_block {
+.first_img_block {
   display: flex;
   justify-content: space-between;
   width: 90%;
   margin: auto;
-  margin-bottom: 15px;
-  margin-top: 20px;
 }
 
-.first_img_block {
-  width: 50%;
+.second_img_block {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.third_img_block {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+}
+
+.fourth_img_block {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+}
+
+#rose {
+  width: 45%;
+}
+
+.photo_block_2.first_photo {
+  width: 100%;
+  height: 0;
+  padding-bottom: 80%;
+  position: relative;
+}
+
+#didier {
+  width: 45%;
+}
+
+.photo_block_2.second_photo {
+  width: 100%;
+  height: 0;
+  padding-bottom: 80%;
+  position: relative;
 }
 
 #michael {
   width: 37%;
 }
 
-#rose {
-  width: 120%;
-  margin-bottom: 15px;
+.photo_block_2.third_photo {
+  width: 100%;
+  height: 0;
+  padding-bottom: 130%;
+  position: relative;
 }
 
-#didier {
-  width: 80%;
+#fred,
+#philippe,
+#laurence {
+  width: 100%;
+}
+
+#laurence {
+  margin-top: -20%;
+}
+
+.photo_block_2.fourth_photo,
+.photo_block_2.fifth_photo,
+.photo_block_2.sixth_photo,
+.photo_block_2.seventh_photo {
+  width: 100%;
+  height: 0;
+  padding-bottom: 140%;
+  position: relative;
+}
+
+.photo_block_2.first_photo img,
+.photo_block_2.second_photo img,
+.photo_block_2.third_photo img,
+.photo_block_2.fourth_photo img,
+.photo_block_2.fifth_photo img,
+.photo_block_2.sixth_photo img,
+.photo_block_2.seventh_photo img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
 }

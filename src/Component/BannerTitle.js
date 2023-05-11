@@ -2,7 +2,7 @@ import React from "react";
 import "./BannerTitle.css";
 import BackgroundTitle from "../images/title_banner.png";
 
-export default function BannerTitle() {
+export default function BannerTitle(props) {
   return (
     <div>
       <div
@@ -14,7 +14,7 @@ export default function BannerTitle() {
           backgroundPosition: "center",
         }}
       >
-        <h2 className="title_banner_block">Notre cheffe</h2>
+        <h2 className="title_banner_block">{props.name}</h2>
       </div>
     </div>
   );
